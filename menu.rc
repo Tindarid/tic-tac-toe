@@ -1,0 +1,28 @@
+   #define IDM_NEW 1
+   #define IDM_EXIT 2
+   #define IDM_PLAYER 3
+   #define IDM_EASY 4
+   #define IDM_MEDIUM 5
+   #define IDM_HARD 6
+   #define IDM_ABOUT 7
+   DefaultMenu MENU
+    {
+      POPUP "&Game"
+           {
+            MENUITEM "&New Game",IDM_NEW
+            MENUITEM SEPARATOR
+            MENUITEM "Exit",IDM_EXIT
+           }
+       POPUP "&ChangeMode"
+           {
+            MENUITEM "With Player",IDM_PLAYER
+            MENUITEM SEPARATOR
+            POPUP "&With Computer"
+	{
+	            MENUITEM "Easy",IDM_EASY
+            	            MENUITEM "Medium",IDM_MEDIUM
+                              MENUITEM "Hard",IDM_HARD
+	}
+           } 
+          MENUITEM "About", IDM_ABOUT
+   }
