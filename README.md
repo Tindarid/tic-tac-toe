@@ -1,5 +1,5 @@
 # tic-tac-toe
-TicTacToe (assembler language)
+TicTacToe (assembly language)
 # How to assembly and run:
 ml /c /coff *.asm
 
