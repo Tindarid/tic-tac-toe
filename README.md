@@ -6,4 +6,5 @@ ml /c /coff *.asm
 rc menu.rc
 link /SUBSYSTEM:WINDOWS /LIBPATH:...\masm32\lib *.obj *.res
 ```
+# Screenshot:
 ![](screen.png)
