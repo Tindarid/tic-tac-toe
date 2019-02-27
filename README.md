@@ -1,12 +1,9 @@
 # tic-tac-toe
-TicTacToe (assembly language)
-# How to assembly and run:
+Tic-tac-toe (assembly language, masm32)
+# Build:
+```
 ml /c /coff *.asm
-
 rc menu.rc
-
-link /SUBSYSTEM:WINDOWS /LIBPATH:c:\masm32\lib *.obj *.res
-
-TicTacToe.exe
-
+link /SUBSYSTEM:WINDOWS /LIBPATH:...\masm32\lib *.obj *.res
+```
 ![](screen.png)
